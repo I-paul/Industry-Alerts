@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+:root {  
+  /* Brand Colors */
+  --brand-primary: #17426b;
+  --brand-primary-rgb: 23, 66, 107;
+  --brand-secondary: #278376;
+  --brand-secondary-rgb: 39, 131, 118;
+  --brand-accent: #f26722;
+  --brand-accent-rgb: 242, 103, 34;
+  
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #bcd9ee;
+  --bg-tertiary: #bfbfbf;
+  --bg-dark: #172d55;
+  --bg-overlay: rgba(23, 66, 107, 0.9);
+  
+  /* Text Colors */
+  --text-primary: #172d55;
+  --text-secondary: #17426b;
+  --text-muted: #7f7f7f;
+  --text-light: #fff;
+  --text-inverse: #ffffff;
+  --text-accent: #f26722;
+  
+  /* Surface Colors */
+  --surface-primary: #ffffff;
+  --surface-secondary: #bcd9ee;
+  --surface-elevated: #ffffff;
+  --surface-overlay: #bfbfbf;
+  
+  /* Border Colors */
+  --border-primary: #a6a6a6;
+  --border-secondary: #bfbfbf;
+  --border-accent: #17426b;
+  --border-focus: #1582c5;
+  
+  /* Button Colors */
+  --btn-primary-bg: #17426b;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #172d55;
+  
+  --btn-secondary-bg: #1582c5;
+  --btn-secondary-text: #ffffff;
+  --btn-secondary-hover: #0e4c8b;
+  
+  --btn-accent-bg: #f26722;
+  --btn-accent-text: #ffffff;
+  --btn-accent-hover: #e55a1c;
+  
+  --btn-outline-bg: transparent;
+  --btn-outline-text: #17426b;
+  --btn-outline-border: #17426b;
+  --btn-outline-hover-bg: #17426b;
+  --btn-outline-hover-text: #ffffff;
+  
+  /* Link Colors */
+  --link-primary: #1582c5;
+  --link-hover: #0e4c8b;
+  --link-visited: #172d55;
+  --link-active: #00b0f0;
+  
+  /* Status Colors */
+  --success: #278376;
+  --success-bg: rgba(39, 131, 118, 0.1);
+  --success-border: rgba(39, 131, 118, 0.3);
+  
+  --warning: #f26722;
+  --warning-bg: rgba(242, 103, 34, 0.1);
+  --warning-border: rgba(242, 103, 34, 0.3);
+  
+  --info: #00b0f0;
+  --info-bg: rgba(0, 176, 240, 0.1);
+  --info-border: rgba(0, 176, 240, 0.3);
+  
+  --error: #d32f2f;
+  --error-bg: rgba(211, 47, 47, 0.1);
+  --error-border: rgba(211, 47, 47, 0.3);
+  
+  /* Form Colors */
+  --input-bg: #ffffff;
+  --input-border: #a6a6a6;
+  --input-border-focus: #1582c5;
+  --input-text: #172d55;
+  --input-placeholder: #7f7f7f;
+  --input-disabled-bg: #bfbfbf;
+  --input-disabled-text: #7f7f7f;
+  
+  /* Navigation Colors */
+  --nav-bg: #17426b;
+  --nav-text: #ffffff;
+  --nav-text-hover: #bcd9ee;
+  --nav-text-active: #00b0f0;
+  --nav-border: rgba(255, 255, 255, 0.1);
+  
+  /* Header Colors */
+  --header-bg: #172d55;
+  --header-text: #ffffff;
+  --header-accent: #f26722;
+  
+  /* Footer Colors */
+  --footer-bg: #7f7f7f;
+  --footer-text: #278376;
+  --footer-link: #bcd9ee;
+  --footer-link-hover: #00b0f0;
+  
+  /* Card Colors */
+  --card-bg: #ffffff;
+  --card-border: #bfbfbf;
+  --card-shadow: rgba(23, 66, 107, 0.15);
+  --card-hover-shadow: rgba(23, 66, 107, 0.25);
+  
+  /* Utility Colors */
+  --shadow-sm: rgba(23, 66, 107, 0.1);
+  --shadow-md: rgba(23, 66, 107, 0.15);
+  --shadow-lg: rgba(23, 66, 107, 0.25);
+  --shadow-xl: rgba(23, 66, 107, 0.35);
+  
+  --overlay-light: rgba(255, 255, 255, 0.9);
+  --overlay-dark: rgba(23, 66, 107, 0.9);
+  
+  /* Gradient Backgrounds */
+  --gradient-primary: linear-gradient(360deg, #17426b 0%, #1582c5 100%);
+  --gradient-secondary: linear-gradient(135deg, #278376 0%, #00b0f0 100%);
+  --gradient-accent: linear-gradient(135deg, #f26722 0%, #278376 100%);
+  --gradient-hero: linear-gradient(135deg, #1582c5 0%, #278376 50%, #17426b 100%);
+  --gradient-title: linear-gradient(135deg, #172d55 0%, #278376 100%);
+  
+  /* Font Families */
+  --font-main: 'Nunito Sans', Arial, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}

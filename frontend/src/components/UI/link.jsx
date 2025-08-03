@@ -1,8 +1,8 @@
 import { motion} from "framer-motion"
 
 const variantClasses ={
-    Navbar : 'text-white font-[1rem] font-bold hover:scale-[1.2] hover:bg-[var(--brand-accent)] hover:text-[var(--brand-primary)] duration-[0.5s] ease-in-out transition  rounded-r-xl',
-    Headings : '',
+    Navbar : 'text-white text-lg font-bold hover:scale-[1.2] hover:bg-[var(--brand-accent)] hover:text-[var(--brand-primary)] duration-[0.5s] ease-in-out transition  rounded-r-xl',
+    headings : 'text-[var(--text-tertiary)]  text-[1rem] hover:text-white',
 
 }
 

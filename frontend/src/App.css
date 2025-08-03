@@ -19,6 +19,7 @@
   /* Text Colors */
   --text-primary: #172d55;
   --text-secondary: #17426b;
+  --text-tertiary:#00b0f0;
   --text-muted: #7f7f7f;
   --text-light: #fff;
   --text-inverse: #ffffff;
@@ -107,6 +108,7 @@
   
   /* Card Colors */
   --card-bg: #ffffff;
+  --card-bg-2:#00b0f0;
   --card-border: #bfbfbf;
   --card-shadow: rgba(23, 66, 107, 0.15);
   --card-hover-shadow: rgba(23, 66, 107, 0.25);
@@ -133,4 +135,8 @@
 
 html{
   scroll-behavior: smooth;
+}
+body{
+  background: #172d55;
+  font-family: var(--font-main);
 }

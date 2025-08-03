@@ -18,7 +18,6 @@ const Navbar = () => {
         <Link variant="Navbar" href="https://www.frost.com/analytics/industry/mobility-automotive-transportation/">Frost</Link>
         <Link variant="Navbar" href="https://store.frost.com/">Store</Link>
         <Link variant="Navbar">Search</Link>
-        <Link variant="Navbar">Welcome!</Link>
       </div>
 
       
@@ -40,7 +39,6 @@ const Navbar = () => {
           <Link variant="Navbar" href="https://www.frost.com/analytics/industry/mobility-automotive-transportation/">Frost</Link>
           <Link variant="Navbar" href="https://store.frost.com/">Store</Link>
           <Link variant="Navbar">Search</Link>
-          <Link variant="Navbar">Welcome!</Link>
           <div className="w-[40vw] h-0 border-white border-2"></div>
         </motion.div>
       )}

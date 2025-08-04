@@ -1,16 +1,15 @@
-import React from 'react';
 
 const variantClasses = {
-  primary: 'bg-[var(--btn-primary-bg)] text-white hover:bg-[var(--btn-primary-hover)]',
-  secondary: 'bg-[var(--btn-secondary-bg)] text-white hover:bg-[var(--btn-accent-hover)]',
-  hamburger: 'bg-[var(--btn-primary-bg)] hover:bg-[var(--brand-accent)] text-white text-bold md:hidden',
-  outline: 'font-bold border border-blue-600 text-blue-600 bg-transparent hover:bg-blue-50',
+  primary: 'rounded bg-[var(--btn-primary-bg)] text-white hover:bg-[var(--btn-primary-hover)]',
+  secondary: 'rounded-r-lg bg-[var(--btn-secondary-bg)] text-white hover:bg-[var(--btn-accent-hover)]',
+  hamburger: 'rounded bg-[var(--btn-primary-bg)] hover:bg-[var(--brand-accent)] text-white text-bold md:hidden',
+  outline: 'rounded font-bold border border-blue-600 text-blue-600 bg-transparent hover:bg-blue-50',
 };
 
 function Button({ children, variant = 'primary', ...props }) {
   return (
     <button
-      className={`px-2 py-1 rounded transition-colors duration-200 focus:outline-none ${variantClasses[variant]}`}
+      className={`px-2 py-1  transition-colors duration-200 focus:outline-none ${variantClasses[variant]}`}
       {...props}
     >
       {children}

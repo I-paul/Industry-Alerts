@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import Button from "../UI/button";
 
@@ -7,8 +6,12 @@ const Sidebar =({setDept , dept})=>{
                         "Shared Mobility","Aftermarket & Digital Retail","Leasing & Rental","Two Wheelers","Trucks",
                         "Buses & Coaches","Off-Highways"];
     return(
-        <motion.section className="hidden md:flex flex-col h-[100vh] w-[30vw] right-0 bg-[var(--bg-tertiary)] border-l-4 border-[var(--brand-secondary)] p-10 gap-2 rounded-bl-4xl 
-                                    justify-around" >
+        <motion.section className="hidden md:flex flex-col h-[100vh] w-[30vw] right-0 bg-[var(--brand-primary)] border-r-4 border-b-4 border-[var(--brand-secondary)] p-10 gap-2 rounded-br-4xl 
+                                    justify-around " 
+            initial={{x:100, opacity:0}}
+            animate={{x:0, opacity:1}} 
+            transition={{duration: 0.6}}                         
+        >
             {Options.map((item, idx)=>
                 <Button variant={item==dept? "secondary" :"outline"} key={item+idx} onClick={()=> setDept(item)}>{item}</Button>
             )}

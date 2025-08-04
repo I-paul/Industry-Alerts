@@ -12,13 +12,13 @@ const App= () => {
 
   return(
     <>
-    <Navbar/>
+    <Navbar setDept={setSelected} dept={selected} />
     <div className="flex flex-row">
+      <Sidebar setDept={setSelected} dept={selected}/>
       <div className="block">
         <Hero/>
         <Window currDept={selected}/>
       </div>
-      <Sidebar setDept={setSelected} dept={selected}/>
     </div>
     <Footer/>
     </>

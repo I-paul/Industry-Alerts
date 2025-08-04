@@ -25,8 +25,8 @@ const Window = ({ currDept }) => {
   return (
     <section className="w-full md:w-[70vw] min-h-[100vh] bg-[var(--bg-dark)] left-0">
 
-      <div className="ml-10 mt-8 flex flex-row relative max-w-[60vw] items-center justify-between">
-        <h1 className="text-white text-2xl font-bold">{currDept}</h1>
+      <div className="ml-10 mt-8 flex flex-row relative w-[90vw] md:w-[60vw] items-center justify-between">
+        <h1 className="text-white text-lg md:text-2xl font-bold">{currDept}</h1>
         <div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
             <Button variant="secondary" onClick={()=>setShowPicker(true)}>{selected.month}  {selected.year}</Button>
             {showPicker &&
@@ -39,7 +39,7 @@ const Window = ({ currDept }) => {
         </div>
       </div>
 
-      <div className="mt-8 ml-8 flex flex-col gap-6">
+      <div className="mt-4 ml-4 flex flex-col gap-6">
         {Array(10).fill(topNews).map((item, idx) => (
           <Card variant="primary" key={item.title + idx}>
             <img src={item.image} alt={item.title} className="max-w-[25vw] max-h-[25vh]" />

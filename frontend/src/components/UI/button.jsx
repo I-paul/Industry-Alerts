@@ -3,7 +3,7 @@ const variantClasses = {
   primary: 'rounded bg-[var(--btn-primary-bg)] text-white hover:bg-[var(--btn-primary-hover)]',
   secondary: 'rounded-r-lg bg-[var(--btn-secondary-bg)] text-white hover:bg-[var(--btn-accent-hover)]',
   hamburger: 'rounded bg-[var(--btn-primary-bg)] hover:bg-[var(--brand-accent)] text-white text-bold md:hidden',
-  outline: 'rounded font-bold border border-blue-600 text-blue-600 bg-transparent hover:bg-blue-50',
+  outline: 'rounded font-bold border  text-blue-500 bg-[var(--bg-primary)] hover:bg-[var(--bg-secondary)]',
 };
 
 function Button({ children, variant = 'primary', ...props }) {

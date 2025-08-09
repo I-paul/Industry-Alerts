@@ -1,7 +1,7 @@
 
 const variantClasses ={
-    Navbar : 'text-white text-lg font-bold hover:scale-[1.1]  hover:text-[var(--brand-accent)] duration-[0.5s] ease-in-out transition  rounded-r-xl',
-    headings : 'text-[var(--text-tertiary)]  text-[1rem] hover:text-white',
+    Navbar : 'text-white text-lg font-bold hover:scale-[1.1]  hover:text-[var(--text-tertiary)] duration-[0.5s] ease-in-out transition  rounded-r-xl',
+    headings : 'text-[var(--text-tertiary)]  hover:text-white m-3 text-[12px] md:text-xl',
 
 }
 

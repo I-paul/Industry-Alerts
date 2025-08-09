@@ -1,54 +1,87 @@
-import { useState } from "react";
-import MonthYearPicker from "../UI/picker";
+import { useState, useEffect, useMemo } from "react";
+import CalendarPicker from "../UI/picker";
 import Card from "../UI/card";
 import Link from "../UI/link";
 import Button from "../UI/button";
+import data from "../../data/sample.json"
+import handleFetch from "../../utils/fetch";
+import PaginationBar from '../UI/pagination'
 
-const Window = ({ currDept }) => {
-  const topNews = {
-    dept: "Electric Vehicles",
-    title: "Self-Driving Cars to Hit UK Roads by 2026; New Legislation Passed",
-    link: "www.google.com",
-    image: "https://placehold.co/250x150"
-  };
+const Window = ({ currDept, searchKeywords }) => {
+	const articlesPerPage = 6;
+	const [currentPage, setCurrentPage] = useState(1);
 
-  const monthsAll = [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December',
-  ];
+	useEffect(() => {
+		setCurrentPage(1)
+		window.scrollTo({ top: 0 });
+	}, [currDept]);
+	const filteredArticles = useMemo(
+		() => handleFetch(data, currDept, searchKeywords),
+		[data, currDept, searchKeywords]
+	);
 
-  const defaultMonth = new Date().getMonth();
-  const defaultYear = new Date().getFullYear();
-  const [showPicker, setShowPicker] = useState(false);
-  const [selected, setSelected] = useState({month:monthsAll[defaultMonth],year:defaultYear});
+	const totalPages = Math.ceil(filteredArticles.length / articlesPerPage);
+	const paginatedArticles = filteredArticles.slice(
+		(currentPage - 1) * articlesPerPage,
+		currentPage * articlesPerPage
+	);
 
-  return (
-    <section className="w-full md:w-[70vw] min-h-[100vh] bg-[var(--bg-dark)] left-0">
+	const monthsAll = [
+		'January', 'February', 'March', 'April', 'May', 'June',
+		'July', 'August', 'September', 'October', 'November', 'December',
+	];
 
-      <div className="ml-10 mt-8 flex flex-row relative w-[90vw] md:w-[60vw] items-center justify-between">
-        <h1 className="text-white text-lg md:text-2xl font-bold">{currDept}</h1>
-        <div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
-            <Button variant="secondary" onClick={()=>setShowPicker(true)}>{selected.month}  {selected.year}</Button>
-            {showPicker &&
-            ( <MonthYearPicker
-              months={monthsAll}
-              onSelect={(val) => setSelected(val)}
-              onClose={() => setShowPicker(false)}
-              minYear={2024}
-            />)}
-        </div>
-      </div>
+	const defaultMonth = new Date().getMonth();
+	const defaultYear = new Date().getFullYear();
+	const defaultDate = new Date().getDate()
+	const [showPicker, setShowPicker] = useState(false);
+	const [selectedDate, setSelectedDate] = useState({ date: defaultDate, month: monthsAll[defaultMonth], year: defaultYear });
 
-      <div className="mt-4 ml-4 flex flex-col gap-6">
-        {Array(10).fill(topNews).map((item, idx) => (
-          <Card variant="primary" key={item.title + idx}>
-            <img src={item.image} alt={item.title} className="max-w-[25vw] max-h-[25vh]" />
-            <a href={item.link} className="m-3 p-2 text-sm md:text-lg">{item.title}</a>
-          </Card>
-        ))}
-      </div>
-    </section>
-  );
+	const showDept = useMemo(() => currDept === 'All News'|| currDept ==='', [currDept]);
+	const searchDesc = currDept===''?true : false ;
+
+	return (
+		<section className="w-full md:w-[70vw] min-h-[100vh] bg-[var(--bg-dark)] left-0">
+
+			{currDept && <div className="ml-10 mt-8  flex flex-row relative w-[90vw] md:w-[65vw] items-center justify-between">
+				<h1 className="text-white text-lg md:text-2xl font-bold">{currDept}</h1>
+				<div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
+					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>
+					{showPicker &&
+						(<CalendarPicker
+							months={monthsAll}
+							currentDate={selectedDate}
+							onSelect={(val) => setSelectedDate(val)}
+							onClose={() => setShowPicker(false)}
+							minYear={2024}
+						/>)}
+				</div>
+			</div>}
+			{searchDesc && <div className="ml-10 mt-8  flex flex-row relative w-[90vw] md:w-[65vw] items-center justify-between">
+				<h1 className="text-white text-[16px] md:text-xl font-bold">{`The search results for "${searchKeywords}" are ${filteredArticles.length} articles`}</h1>
+			</div>}
+
+			<div className="mt-4 ml-4 flex flex-col gap-1 sm:gap-4">
+				{paginatedArticles.map((item, idx) => (
+					<Card variant="primary" key={item.title + idx}>
+						<img src={item.img} alt={item.title} className="max-w-[40vw] max-h-[30vh] sm:max-w-[25vw] sm:max-h-[25vh]" />
+						<div className="flex flex-col relative h-[20vh] w-[40vw] justify-center ">
+							<a href={item.link} variant="headings" className=" m-3 text-[12px] lg:text-lg">{item.title}</a>
+							{showDept && <span className="absolute right-2 bottom-0 text-[10px] md:text-[14px]">{item.dept}</span>}
+							<span className="absolute top-0  md:left-2 md:bottom-0 text-[10px] md:text-[14px]">{"Published : " + item.published}</span>
+						</div>
+					</Card>
+				))}
+			</div>
+			<div className="flex mx-5 my-4 justify-center items-center w-[90vw] md:w-[65vw] overflow-x-hidden">
+				<PaginationBar
+					totalPages={totalPages}
+					currentPage={currentPage}
+					setCurrentPage={setCurrentPage}
+				/>
+			</div>
+		</section>
+	);
 };
 
 export default Window;

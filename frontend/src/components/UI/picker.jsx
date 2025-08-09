@@ -1,59 +1,127 @@
-import { useState } from 'react';
-import Button from './button';
+import { useState, useMemo } from "react";
 
-export default function MonthYearPicker({months, onSelect, onClose, minYear = 2024}) {
+export default function CalendarPicker({ months, currentDate, onSelect, onClose, minYear }) {
+	const now = new Date();
+	const currentYear = now.getFullYear();
+	const currentMonth = now.getMonth();
+	const currentDateNum = now.getDate();
 
-  const maxYear = new Date().getFullYear()
-  const maxMonth =new Date().getMonth()
-  const [selectedYear, setSelectedYear] = useState(maxYear);
-  const [selectedMonth, setSelectedMonth] = useState(maxMonth);
-  const handleSubmit = () => {
-    onSelect({ year: selectedYear, month: months[selectedMonth] });
-    onClose();
-  };
+	const [year, setYear] = useState(currentDate.year);
+	const [month, setMonth] = useState(months.indexOf(currentDate.month));
+	const [selectedDay, setSelectedDay] = useState(currentDate.date);
 
-  return (
-    <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-      <div className="bg-white p-6 rounded-xl shadow-lg w-72 space-y-4">
-        <h2 className="text-lg font-semibold text-center">Select Month & Year</h2>
+	const years = useMemo(() => {
+		const y = [];
+		for (let i = minYear; i <= currentYear; i++) y.push(i);
+		return y;
+	}, [minYear, currentYear]);
 
-        <div className="flex gap-4 justify-between">
-          <select
-            className="w-1/2 border rounded-md p-2"
-            value={selectedMonth}
-            onChange={(e) => setSelectedMonth(Number(e.target.value))}
-          >
-            {(months.slice(0,maxMonth+1)).map((month, idx) => (
-              <option key={month} value={idx}>{month}</option>
-            ))}
-          </select>
+	const daysInMonth = useMemo(() => {
+		return new Date(year, month + 1, 0).getDate();
+	}, [year, month]);
 
-          <select
-            className="w-1/2 border rounded-md p-2"
-            value={selectedYear}
-            onChange={(e) => setSelectedYear(Number(e.target.value))}
-          >
-            {Array.from({ length: maxYear - minYear+ 1 }, (_, i) => minYear + i).map((year) => (
-              <option key={year} value={year}>{year}</option>
-            ))}
-          </select>
-        </div>
+	const startDay = useMemo(() => {
+		return new Date(year, month, 1).getDay();
+	}, [year, month]);
 
-        <div className="flex justify-end gap-2">
-          <button
-            className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
-            onClick={onClose}
-          >
-            Cancel
-          </button>
-          <Button
-            variant='primary'
-            onClick={handleSubmit}
-          >
-            Select
-          </Button>
-        </div>
-      </div>
-    </div>
-  );
+	const daysArray = useMemo(() => {
+		const blankDays = Array(startDay).fill(null);
+		const validDays = Array.from({ length: daysInMonth }, (_, i) => i + 1);
+		return [...blankDays, ...validDays];
+	}, [startDay, daysInMonth]);
+
+	const handleClick = (day) => {
+		const selected = new Date(year, month, day);
+		if (selected > now) return;
+		setSelectedDay(day);
+	};
+
+	const confirmSelection = () => {
+		if (!selectedDay) return;
+		onSelect({
+			date: selectedDay,
+			month: months[month],
+			year,
+		});
+		onClose();
+	};
+
+	return (
+		<div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
+			<div className="bg-white p-6 rounded-lg w-80">
+				<h2 className="text-lg font-semibold text-center mb-4">Select Date</h2>
+
+				<div className="flex gap-2 mb-4">
+					{/* Month Selector */}
+					<select
+						value={month}
+						onChange={(e) => {
+							const newMonth = Number(e.target.value);
+							setMonth(newMonth);
+							if (year === currentYear && newMonth > currentMonth) {
+								setMonth(currentMonth);
+							}
+						}}
+						className="flex-1 border p-2 rounded"
+					>
+						{months.map((m, idx) =>
+							year === currentYear && idx > currentMonth ? null : (
+								<option key={m} value={idx}>{m}</option>
+							)
+						)}
+					</select>
+
+					{/* Year Selector */}
+					<select
+						value={year}
+						onChange={(e) => {
+							const y = Number(e.target.value);
+							setYear(y);
+							if (y === currentYear && month > currentMonth) {
+								setMonth(currentMonth);
+							}
+						}}
+						className="flex-1 border p-2 rounded"
+					>
+						{years.map((y) => <option key={y} value={y}>{y}</option>)}
+					</select>
+				</div>
+
+				{/* Calendar Days Grid */}
+				<div className="grid grid-cols-7 gap-1 text-sm text-center mb-4">
+					{["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"].map((d) => (
+						<div key={d} className="font-semibold">{d}</div>
+					))}
+					{daysArray.map((day, idx) => {
+						const isFuture =
+							day &&
+							(year === currentYear && month === currentMonth && day > currentDateNum);
+
+						return (
+							<button
+								key={idx}
+								disabled={isFuture || !day}
+								onClick={() => handleClick(day)}
+								className={`p-1 rounded-full h-8 w-8 mx-auto ${selectedDay === day ? "bg-blue-500 text-white" : `${isFuture ? "text-[var(--text-muted)] cursor-not-allowed" : ` ${!day ? "cursor-default" : "hover:bg-gray-400"}`}`
+									} `}
+							>
+								{day || ""}
+							</button>
+						);
+					})}
+				</div>
+
+				{/* Action Buttons */}
+				<div className="flex justify-end gap-2">
+					<button onClick={onClose} className="text-sm text-gray-600 px-3 py-1 hover:underline">Cancel</button>
+					<button
+						onClick={confirmSelection}
+						className="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700 text-sm"
+					>
+						Select
+					</button>
+				</div>
+			</div>
+		</div>
+	);
 }

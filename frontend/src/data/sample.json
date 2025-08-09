@@ -1,0 +1,862 @@
+{
+  "dept": {
+    "Incentives & Regulations": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 12,
+              "title": "Smart spending and smarter driving with Jetour",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26447-smart-spending-and-smarter-driving-with-jetour",
+              "published": "20-06-2025"
+            },
+            {
+              "id": 16,
+              "title": "GAC Motor South Africa and Real Madrid Foundation unite to empower South Africa\u2019s youth through sport and purpose",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26446-gac-motor-south-africa-and-real-madrid-foundation-unite-to-empower-south-africas-youth-through-sport-and-purpose",
+              "published": "20-06-2025"
+            },
+            {
+              "id": 6,
+              "title": "Defender Trophy: An epic adventure challenge supporting Tusk. Are you made for it?",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26445-defender-trophy-an-epic-adventure-challenge-supporting-tusk-are-you-made-for-it",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 21,
+              "title": "Ford Performance Returns to Pikes Peak with Electric Super Mustang Mach-E Demonstrator",
+              "img": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26444-ford-performance-returns-to-pikes-peak-with-electric-super-mustang-mach-e-demonstrator",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 22,
+              "title": "Distracted driving decreases",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26443-distracted-driving-decreases",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 23,
+              "title": "South Africa strengthens global ties at CITA International Conference 2025",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26442-south-africa-strengthens-global-ties-at-cita-international-conference-2025",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 24,
+              "title": "Abbey Road Studios Mode makes global debut in Volvo EX90",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26441-abbey-road-studios-mode-makes-global-debut-in-volvo-ex90",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 25,
+              "title": "Volkswagen Group Africa welcomes 540 youth through YES programme",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26440-volkswagen-group-africa-welcomes-540-youth-through-yes-programme",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 26,
+              "title": "Mercedes shines in Canada",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26438-mercedes-shines-in-canada",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 27,
+              "title": "JAC Motors launches limited edition T9 Hunter",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26437-jac-motors-launches-limited-edition-t9-hunter",
+              "published": "19-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Electric Vehicles": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 18,
+              "title": "Tight battles and clear leaders as GR Cup action moves to Zwartkops for Round 4",
+              "img": "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26436-tight-battles-and-clear-leaders-as-gr-cup-action-moves-to-zwartkops-for-round-4",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 2,
+              "title": "Jaguar Classic and The Glenturret celebrate Jaguar D-type\u2019s 70th anniversary with exclusive new whisky",
+              "img": "https://images.unsplash.com/photo-1593941707874-ef25b8b4a92b?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26435-jaguar-classic-and-the-glenturret-celebrate-jaguar-d-types-70th-anniversary-with-exclusive-new-whisky",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 9,
+              "title": "Jetour South Africa\u2019s young trailblazers",
+              "img": "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26434-jetour-south-africas-young-trailblazers",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 28,
+              "title": "GWM launches a new adrenaline-charged SUV",
+              "img": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26433-gwm-launches-a-new-adrenaline-charged-suv",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 29,
+              "title": "The new Haval H6 SUV is here, and it\u2019s built for big moments!",
+              "img": "https://images.unsplash.com/photo-1549399654-4ffa79e974d4?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26432-the-new-haval-h6-suv-is-here-and-its-built-for-big-moments",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 30,
+              "title": "TGRSA heads to Zwartkops for round 4 of 2025 SATC and SupaCup season",
+              "img": "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26431-tgrsa-heads-to-zwartkops-for-round-4-of-2025-satc-and-supacup-season",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 31,
+              "title": "Youth opportunity a priority",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26430-youth-opportunity-a-priority",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 32,
+              "title": "Unitrans drives innovation to meet Africa's evolving logistics needs",
+              "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26429-unitrans-drives-innovation-to-meet-africas-evolving-logistics-needs",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 33,
+              "title": "Heat, hills and hard racing: TGRJA delivers grit and growth",
+              "img": "https://images.unsplash.com/photo-1593941707873-6145a14a5cdf?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26428-heat-hills-and-hard-racing-tgrja-delivers-grit-and-growth",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 34,
+              "title": "Castrol relaunches GTX all new variants range in South Africa \u2013 a trusted classic reimagined for today's engines",
+              "img": "https://images.unsplash.com/photo-1549399654-4ffa79e974d4?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26427-castrol-relaunches-gtx-all-new-variants-range-in-south-africa-a-trusted-classic-reimagined-for-todays-engines",
+              "published": "18-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Connected Vehicles": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 17,
+              "title": "BAIC South Africa Champions Bold Youth Leadership as Official Vehicle Sponsor of the Y20 Summit 2025",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26426-baic-south-africa-champions-bold-youth-leadership-as-official-vehicle-sponsor-of-the-y20-summit-2025",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 35,
+              "title": "Volvo Car South Africa confirms third quarter arrival of new EX30 Cross Country",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26425-volvo-car-south-africa-confirms-third-quarter-arrival-of-new-ex30-cross-country",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 36,
+              "title": "Electric cars and their warning signals difficult to locate at low speed",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26424-electric-cars-and-their-warning-signals-difficult-to-locate-at-low-speed",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 37,
+              "title": "Michelin to become exclusive supplier of the FIM Superbike World Championship starting in 2027",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26423-michelin-to-become-exclusive-supplier-of-the-fim-superbike-world-championship-starting-in-2027",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 38,
+              "title": "Castrol launches the GTX LOOOOOONG RIDE: A Cape-to-Kenya road test for endurance, purpose, and protection",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26422-castrol-launches-the-gtx-loooooong-ride-a-cape-to-kenya-road-test-for-endurance-purpose-and-protection",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 39,
+              "title": "Robots simulate a decade of seat usage to give JLR's luxury vehicle clients the ultimate comfortable ride",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26421-robots-simulate-a-decade-of-seat-usage-to-give-jlrs-luxury-vehicle-clients-the-ultimate-comfortable-ride",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 40,
+              "title": "Suzuki puts affordable mobility under the spotlight this Youth Month",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26420-suzuki-puts-affordable-mobility-under-the-spotlight-this-youth-month",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 41,
+              "title": "Alfa Romeo and Luna Rossa\u2019s 1000 Miglia kicks off",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26419-alfa-romeo-and-luna-rossas-1000-miglia-kicks-off",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 42,
+              "title": "Thule adds Outpace and EasyFold 3 to bicycle carrier range",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26418-thule-adds-outpace-and-easyfold-3-to-bicycle-carrier-range",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 43,
+              "title": "2025 Venture Awards Celebrate Startups Partnering with Stellantis to Enhance Customer Experience",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26417-2025-venture-awards-celebrate-startups-partnering-with-stellantis-to-enhance-customer-experience",
+              "published": "17-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Autonomous Vehicles": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 8,
+              "title": "70 Years of the Fiat 600: the iconic car takes the spotlight at 1000 Miglia with the support of FIAT and Abarth Brands",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26416-70-years-of-the-fiat-600-the-iconic-car-takes-the-spotlight-at-1000-miglia-with-the-support-of-fiat-and-abarth-brands",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 8,
+              "title": "Q2 2025 Ctrack Transport & Freight Index \u2013 Sector Finds Its Footing",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26415-q2-2025-ctrack-transport-freight-index-sector-finds-its-footing",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 44,
+              "title": "Toyota South Africa Motors in the starting blocks of another successful partnership at the 2025 MTN Shift Gaming Experience",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26414-toyota-south-africa-motors-in-the-starting-blocks-of-another-successful-partnership-at-the-2025-mtn-shift-gaming-experience",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 45,
+              "title": "Opel Unveils the Limited-Edition Corsa Irmscher Edition: A Tribute to Racing Heritage and Precision Engineering",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26413-opel-unveils-the-limited-edition-corsa-irmscher-edition-a-tribute-to-racing-heritage-and-precision-engineering",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 46,
+              "title": "Pure passion - Alfa Romeo aficionado Trevor Tuck and the allure of the Simola Hillclimb",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26412-pure-passion-alfa-romeo-aficionado-trevor-tuck-and-the-allure-of-the-simola-hillclimb",
+              "published": "17-06-2025"
+            },
+            {
+              "id": 47,
+              "title": "Media statement by TSAM, Distributers of Hino in Southern Africa",
+              "img": "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26411-media-statement-by-tsam-distributers-of-hino-in-southern-africa",
+              "published": "13-06-2025"
+            },
+            {
+              "id": 48,
+              "title": "Jetour puts after-sales before sales",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26410-jetour-puts-after-sales-before-sales",
+              "published": "13-06-2025"
+            },
+            {
+              "id": 49,
+              "title": "What causes a rollover?",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/mobility/26409-what-causes-a-rollover",
+              "published": "13-06-2025"
+            },
+            {
+              "id": 50,
+              "title": "Get ready to catch the new legend",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26408-get-ready-to-catch-the-new-legend",
+              "published": "13-06-2025"
+            },
+            {
+              "id": 51,
+              "title": "Volvo Car South Africa urges young drivers to take the lead on road safety this Youth Day",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26407-volvo-car-south-africa-urges-young-drivers-to-take-the-lead-on-road-safety-this-youth-day",
+              "published": "12-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Shared Mobility": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 11,
+              "title": "Isuzu Motors South Africa drives ISUZU Environmental Vision locally, aligned with Isuzu Motors Limited 2050 ambitions",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26406-isuzu-motors-south-africa-drives-isuzu-environmental-vision-locally-aligned-with-isuzu-motors-limited-2050-ambitions",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 52,
+              "title": "Alfa Romeo & Luna Rossa, together at 1000 Miglia 2025",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26405-alfa-romeo-luna-rossa-together-at-1000-miglia-2025",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 53,
+              "title": "Empowering Futures: Engen Transforms Youth Through Digital Skills and Learnerships",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26404-empowering-futures-engen-transforms-youth-through-digital-skills-and-learnerships",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 54,
+              "title": "JLR appoints 50 specialists to boost resilience of new electric vehicle supply chains",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26403-jlr-appoints-50-specialists-to-boost-resilience-of-new-electric-vehicle-supply-chains",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 55,
+              "title": "Honda SA says goodbye to Letitia Herold",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26402-honda-sa-says-goodbye-to-letitia-herold",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 56,
+              "title": "Discovery Sport gets more dynamic, luxurious and individual with new Metropolitan and Landmark editions",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26401-discovery-sport-gets-more-dynamic-luxurious-and-individual-with-new-metropolitan-and-landmark-editions",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 57,
+              "title": "UD Trucks Southern Africa celebrates dealers breaking barriers at 2025 awards ceremony",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26400-ud-trucks-southern-africa-celebrates-dealers-breaking-barriers-at-2025-awards-ceremony",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 58,
+              "title": "Climb, Crawl, and Conquer: Mastering the Essential Skills of Off-Road Driving",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/mobility/26399-climb-crawl-and-conquer-mastering-the-essential-skills-of-off-road-driving",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 59,
+              "title": "Into Africa Racing snatches victory from the jaws of defeat",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26398-into-africa-racing-snatches-victory-from-the-jaws-of-defeat",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 60,
+              "title": "\u201cCompletely out of the blue and at the perfect time,\u201d says winner of Jetour Experience",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26397-completely-out-of-the-blue-and-at-the-perfect-time-says-winner-of-jetour-experience",
+              "published": "11-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Aftermarket & Digital Retail": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 11,
+              "title": "Rethinking mobility for South Africans beyond traditional vehicle finance",
+              "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26396-rethinking-mobility-for-south-africans-beyond-traditional-vehicle-finance",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 17,
+              "title": "Software R\u00e9publique unveils \"vision 4rescue\", an integrated technological ecosystem for the next-gen of Emergency Services",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26395-software-republique-unveils-vision-4rescue-an-integrated-technological-ecosystem-for-the-next-gen-of-emergency-services",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 4,
+              "title": "Monsoon conditions test drivers and riders to the limit at Killarney Raceway",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26394-monsoon-conditions-test-drivers-and-riders-to-the-limit-at-killarney-raceway",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 12,
+              "title": "Entries Open for The Cape 1000 \u2013 South Africa\u2019s Most Beautiful Drive Returns for 2026",
+              "img": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26393-entries-open-for-the-cape-1000-south-africas-most-beautiful-drive-returns-for-2026",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 61,
+              "title": "Special Envoy Launches XPress - SA\u2019s First Full EV Courier Fleet",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/mobility/26392-special-envoy-launches-xpress-sas-first-full-ev-courier-fleet",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 62,
+              "title": "Alfa Romeo, Official Sponsor of Luna Rossa. Together for the 38th America\u2019s Cup",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26391-alfa-romeo-official-sponsor-of-luna-rossa-together-for-the-38th-americas-cup",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 63,
+              "title": "GAC Unveils \u201cX-SOUL AI Panorama\u201d at Auto Shanghai 2025",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26390-gac-unveils-x-soul-ai-panorama-at-auto-shanghai-2025",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 64,
+              "title": "ISUZU Foundation and IRONMAN4theKidz Charity raise close to R300 000 IRONMAN 70.3 Durban Entries",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26389-isuzu-foundation-and-ironman4thekidz-charity-raise-close-to-r300-000-ironman-70-3-durban-entries",
+              "published": "11-06-2025"
+            },
+            {
+              "id": 65,
+              "title": "Hino Kuilsrivier achieves prestigious first-time victory as Hino Dealer of the Year",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26388-hino-kuilsrivier-achieves-prestigious-first-time-victory-as-hino-dealer-of-the-year",
+              "published": "10-06-2025"
+            },
+            {
+              "id": 66,
+              "title": "LDV South Africa Partners with Radio Laeveld for Community-Driven Campaign",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26387-ldv-south-africa-partners-with-radio-laeveld-for-community-driven-campaign",
+              "published": "10-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Leasing & Rental": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 10,
+              "title": "Volvo Cars introduces world first multi-adaptive safety belt in the upcoming Volvo EX60",
+              "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26386-volvo-cars-introduces-world-first-multi-adaptive-safety-belt-in-the-upcoming-volvo-ex60",
+              "published": "10-06-2025"
+            },
+            {
+              "id": 3,
+              "title": "Top Two Teams Crowned 2025 VW Vaya Cup Champions",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26385-top-two-teams-crowned-2025-vw-vaya-cup-champions",
+              "published": "10-06-2025"
+            },
+            {
+              "id": 12,
+              "title": "Toyota South Africa announces ultra-marathon champion, Gerda Steyn as new Global Team Toyota Athlete",
+              "img": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26384-toyota-south-africa-announces-ultra-marathon-champion-gerda-steyn-as-new-global-team-toyota-athlete",
+              "published": "10-06-2025"
+            },
+            {
+              "id": 4,
+              "title": "Powered by Supercharged H\u2082O! Engen\u2019s \u201cMagic Water\u201d Helps Tete Clinch Third Comrades Title",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26383-powered-by-supercharged-h2o-engens-magic-water-helps-tete-clinch-third-comrades-title",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 67,
+              "title": "The Mercedes-AMG E 53 HYBRID 4MATIC+: Executive Performance redefined",
+              "img": "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26382-the-mercedes-amg-e-53-hybrid-4matic-executive-performance-redefined",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 68,
+              "title": "TGRJA\u2019s future stars ready to shine on Idube\u2019s slopes",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26381-tgrjas-future-stars-ready-to-shine-on-idubes-slopes",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 69,
+              "title": "The Mercedes-AMG CLE Coup\u00e9: A beauty and a beast from Affalterbach",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26380-the-mercedes-amg-cle-coupe-a-beauty-and-a-beast-from-affalterbach",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 70,
+              "title": "Ogier and TOYOTA GAZOO Racing clinch dramatic Sardinia triumph",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26379-ogier-and-toyota-gazoo-racing-clinch-dramatic-sardinia-triumph",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 71,
+              "title": "JAECOO J7 SHS debuts in South Africa with 90 km all-electric range",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26378-jaecoo-j7-shs-debuts-in-south-africa-with-90-km-all-electric-range",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 72,
+              "title": "Chrysler Turns 100! Chrysler Brand Shares 1,500-plus 100th Birthday Group Photo Honoring Employees, Announces Century of Innovation Summer Celebration Events As It Looks to Next 100 Years",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26377-chrysler-turns-100-chrysler-brand-shares-1-500-plus-100th-birthday-group-photo-honoring-employees-announces-century-of-innovation-summer-celebration-events-as-it-looks-to-next-100-years",
+              "published": "09-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Two Wheelers": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 11,
+              "title": "Calling conservation and humanitarian heroes \u2013 entry to new \u2018Defender Awards\u2019 initiative closes on 16 June",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26376-calling-conservation-and-humanitarian-heroes-entry-to-new-defender-awards-initiative-closes-on-16-june",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 18,
+              "title": "Hyundai Shell Mobis World Rally Team\u2019s Ott T\u00e4nak and Martin J\u00e4rveoja finish second overall at Rally Italia Sardegna",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motorsport/26375-hyundai-shell-mobis-world-rally-teams-ott-taenak-and-martin-jaerveoja-finish-second-overall-at-rally-italia-sardegna",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 73,
+              "title": "Killarney skidpan \u2013 a worthy investment",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26374-killarney-skidpan-a-worthy-investment",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 74,
+              "title": "OMODA launches C9 PHEV in South Africa, offering 150 km electric range, 440 kW of power, and flagship-level luxury",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26373-omoda-launches-c9-phev-in-south-africa-offering-150-km-electric-range-440-kw-of-power-and-flagship-level-luxury",
+              "published": "06-06-2025"
+            },
+            {
+              "id": 75,
+              "title": "UD Trucks Southern Africa and CMH Commercial celebrate the opening of a new dealership facility in Pinetown, Durban",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26372-ud-trucks-southern-africa-and-cmh-commercial-celebrate-the-opening-of-a-new-dealership-facility-in-pinetown-durban",
+              "published": "06-06-2025"
+            },
+            {
+              "id": 76,
+              "title": "Unseen safety, unmatched confidence: Chery\u2019s Tiggo 7 CSH protects what you can\u2019t see",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26371-unseen-safety-unmatched-confidence-cherys-tiggo-7-csh-protects-what-you-cant-see",
+              "published": "06-06-2025"
+            },
+            {
+              "id": 77,
+              "title": "Stellantis Publishes Agenda for 2025 Extraordinary General Meeting of Shareholders",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26370-stellantis-publishes-agenda-for-2025-extraordinary-general-meeting-of-shareholders",
+              "published": "06-06-2025"
+            },
+            {
+              "id": 78,
+              "title": "Save The Date - Passion flows strong",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26369-save-the-date-passion-flows-strong",
+              "published": "06-06-2025"
+            },
+            {
+              "id": 79,
+              "title": "The Mercedes-AMG SL 63: A performance icon reborn",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/motoring/26368-the-mercedes-amg-sl-63-a-performance-icon-reborn",
+              "published": "06-06-2025"
+            },
+            {
+              "id": 80,
+              "title": "Engen brings the Blue Mile vibe \u2013 and FREE fuel for a year \u2013 to Comrades Marathon 2025",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://abrbuzz.co.za/buzz/26367-engen-brings-the-blue-mile-vibe-and-free-fuel-for-a-year-to-comrades-marathon-2025",
+              "published": "06-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Trucks": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 1,
+              "title": "Zeekr revolutionizes road safety with 360\u00b0 cameras and LiDAR",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/zeekr-revoluciona-la-seguridad-vial-con-camaras-y-lidar-360/",
+              "published": "20-06-2025"
+            },
+            {
+              "id": 10,
+              "title": "Juanes, Volvo's new ambassador in Latin America",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/juanes-nuevo-embajador-de-volvo-en-latinoamerica/",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 19,
+              "title": "JAC launches three electric cars in Colombia starting at $69 million.",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/jac-lanza-tres-carros-electricos-en-colombia-desde-69-millones/",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 3,
+              "title": "2026 Kia Sportage: Everything You Need to Know",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/kia-sportage-2026-todo-lo-que-debe-saber/",
+              "published": "16-06-2025"
+            },
+            {
+              "id": 81,
+              "title": "The day Jeep conquered the sky: the feat of the Grand Cherokee Laredo",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/el-dia-que-jeep-conquisto-el-cielo-la-hazana-del-grand-cherokee-laredo/",
+              "published": "16-06-2025"
+            },
+            {
+              "id": 82,
+              "title": "Renault Duster Hybrid E-Tech: Everything you need to know",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/renault-duster-hybrid-e-tech-todo-lo-que-debe-saber/",
+              "published": "13-06-2025"
+            },
+            {
+              "id": 83,
+              "title": "Geotab: High cost of idling on stopped vehicles",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/geotab-alto-costo-del-ralenti-en-vehiculos-detenidos/",
+              "published": "12-06-2025"
+            },
+            {
+              "id": 84,
+              "title": "Bridgestone: How to care for your tires?",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/bridgestone-como-cuidar-sus-llantas/",
+              "published": "10-06-2025"
+            },
+            {
+              "id": 85,
+              "title": "Renault-Sofasa, the most attractive automotive company to work for in Colombia",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/renault-sofasa-empresa-automotriz-mas-atractiva-para-trabajar-en-colombia/",
+              "published": "10-06-2025"
+            },
+            {
+              "id": 86,
+              "title": "Nissan strengthens its commitment to road safety in Colombia",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/nissan-refuerza-compromiso-con-la-seguridad-vial-en-colombia/",
+              "published": "10-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Buses & Coaches": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 20,
+              "title": "Volvo unveils its multi-adaptive seatbelt in 2026",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/volvo-presenta-su-cinturon-de-seguridad-multiadaptativo-2026/",
+              "published": "09-06-2025"
+            },
+            {
+              "id": 10,
+              "title": "Jeep Grand Cherokee Laredo: Return to Adventure",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/jeep-grand-cherokee-laredo-vuelve-a-la-aventura/",
+              "published": "06-06-2025"
+            },
+            {
+              "id": 1,
+              "title": "Toyota Expedition 2025: A unique 4-door adventure in Quind\u00edo",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/expedicion-toyota-2025-aventura-4x4-unica-en-el-quindio/",
+              "published": "06-06-2025"
+            },
+            {
+              "id": 4,
+              "title": "BMW Motorrad returns to the 2025 Colombian GP",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/bmw-motorrad-regresa-al-gp-colombia-2025/",
+              "published": "05-06-2025"
+            },
+            {
+              "id": 13,
+              "title": "Pirelli equips the Porsche 911 GTS hybrid",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/pirelli-equipa-al-porsche-911-gts-hibrido/",
+              "published": "05-06-2025"
+            },
+            {
+              "id": 87,
+              "title": "Metrokia Business Mobility: a comprehensive solution for corporate fleets",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/metrokia-business-mobility-solucion-integral-para-flotas-corporativas/",
+              "published": "04-06-2025"
+            },
+            {
+              "id": 88,
+              "title": "Tire rotation, according to Bridgestone: vital for your safety",
+              "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/rotacion-de-llantas-segun-bridgestone-vital-para-su-seguridad/",
+              "published": "04-06-2025"
+            },
+            {
+              "id": 89,
+              "title": "Ford Maverick Hybrid: New Mini Pickup for Colombia",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://acelerando.com.co/ford-maverick-hibrida-nueva-mini-pick-up-para-colombia/",
+              "published": "03-06-2025"
+            },
+            {
+              "id": 90,
+              "title": "ICDP: Car buyer does not change radically",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/retail/icdp-autokoper-verandert-niet-radicaal/",
+              "published": "20-06-2025"
+            },
+            {
+              "id": 91,
+              "title": "VER: Half of charging invoices are incorrect",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/retail/ver-helft-laadfacturen-klopt-niet/",
+              "published": "20-06-2025"
+            }
+          ]
+        }
+      }
+    },
+    "Off-Highways": {
+      "2025": {
+        "Jun": {
+          "articles": [
+            {
+              "id": 3,
+              "title": "Dakar",
+              "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/algemeen/dakar/",
+              "published": "20-06-2025"
+            },
+            {
+              "id": 9,
+              "title": "Citro\u00ebn discontinues C3 and DS3",
+              "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/werkplaats/citroen-laat-c3-en-ds3-stilzetten/",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 10,
+              "title": "Car dealers' profits continue to fall",
+              "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/retail/winst-autodealers-daalt-verder/",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 10,
+              "title": "'Postponing sustainability is not an option'",
+              "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/leasing/duurzaamheid-uitstellen-is-geen-optie/",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 2,
+              "title": "VinFast to collaborate with dealer groups",
+              "img": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/retail/vinfast-gaat-samenwerken-met-dealergroepen/",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 1,
+              "title": "Tires are becoming increasingly important",
+              "img": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/werkplaats/banden-steeds-belangrijker/",
+              "published": "19-06-2025"
+            },
+            {
+              "id": 92,
+              "title": "Altac distribution partner Riwax Benelux",
+              "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/schadeherstel/altac-distributiepartner-riwax-benelux/",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 93,
+              "title": "EV warning signs difficult to locate",
+              "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/algemeen/waarschuwingssignalen-ev-moeilijk-te-lokaliseren/",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 94,
+              "title": "James enters into partnership with Autoflex",
+              "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/werkplaats/james-sluit-samenwerking-met-autoflex/",
+              "published": "18-06-2025"
+            },
+            {
+              "id": 95,
+              "title": "Dealers united in Verona",
+              "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=200&fit=crop",
+              "link": "https://aftersalesmagazine.nl/nieuws/retail/dealers-verenigd-in-verona/",
+              "published": "18-06-2025"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

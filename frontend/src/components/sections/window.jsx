@@ -63,13 +63,13 @@ const Window = ({ currDept, searchKeywords }) => {
 
 			<div className="mt-4 ml-4 flex flex-col gap-1 sm:gap-4">
 				{paginatedArticles.map((item, idx) => (
-					<Card variant="primary" key={item.title + idx}>
+					<Card variant="primary" key={item.title + idx} href={item.link}>
 						<img src={item.img} alt={item.title} className="max-w-[40vw] max-h-[30vh] sm:max-w-[25vw] sm:max-h-[25vh]" />
-						<div className="flex flex-col relative h-[20vh] w-[40vw] justify-center ">
-							<a href={item.link} variant="headings" className=" m-3 text-[12px] lg:text-lg">{item.title}</a>
+						<a className="flex flex-col relative h-[20vh] w-[40vw] justify-center">	
+							<p className=" m-3 text-[12px] lg:text-lg" >{item.title}</p>
 							{showDept && <span className="absolute right-2 bottom-0 text-[10px] md:text-[14px]">{item.dept}</span>}
 							<span className="absolute top-0  md:left-2 md:bottom-0 text-[10px] md:text-[14px]">{"Published : " + item.published}</span>
-						</div>
+						</a>
 					</Card>
 				))}
 			</div>

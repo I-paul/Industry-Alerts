@@ -6,16 +6,17 @@ const variantClasses = {
 
 function Card({ children, variant = 'primary', ...props }) {
 	return (
-		<motion.div
+		<motion.a
 			className={`px-2 py-4 my-6 mx-5 md:my-6 md:mx-8 flex items-center rounded-2xl transition-colors duration-200 focus:outline-none ${variantClasses[variant]}`}
 			{...props}
 			initial={{ y: 25, opacity: 0 }}
 			whileHover={{ y: -5 }}
 			whileInView={{ y: 0, opacity: 1 }}
 			transition={{ duration: 0.5, ease: 'easeInOut' }}
+			target='_blank'
 		>
 			{children}
-		</motion.div>
+		</motion.a>
 	);
 }
 

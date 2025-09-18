@@ -1,13 +1,13 @@
 import { motion } from 'framer-motion';
 
 const variantClasses = {
-	primary: 'bg-[var(--card-bg)] text-[var(--text-tertiary)] hover:bg-[var(--card-bg-2)] hover:text-white border-2 border-[var(--brand-accent)]',
+	primary: 'bg-[var(--card-bg-2)] text-white hover:bg-[var(--link-active)]  border-2 border-[var(--brand-accent)]',
 };
 
 function Card({ children, variant = 'primary', ...props }) {
 	return (
 		<motion.a
-			className={`px-2 py-4 my-6 mx-5 md:my-6 md:mx-8 flex items-center rounded-2xl transition-colors duration-200 focus:outline-none ${variantClasses[variant]}`}
+			className={`px-1 py-2 md:px-2 md:py-4 my-6 mx-5 md:my-6 md:mx-8 flex items-center rounded-2xl transition-colors duration-200 focus:outline-none ${variantClasses[variant]}`}
 			{...props}
 			initial={{ y: 25, opacity: 0 }}
 			whileHover={{ y: -5 }}

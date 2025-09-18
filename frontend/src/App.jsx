@@ -18,6 +18,7 @@ const App = () => {
 				<div className="flex flex-row ">
 					<Sidebar setDept={setSelected} dept={selected} />
 					<Window currDept={selected} searchKeywords={keywords} />
+					<div className="flex w-[20vw] h-[100vh] top-20 left-0 bg-gray-600 sticky"></div>
 				</div>
 			</div>
 			<Footer />

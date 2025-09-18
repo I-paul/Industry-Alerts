@@ -8,43 +8,45 @@ import handleFetch from "../../utils/fetch";
 import PaginationBar from '../UI/pagination'
 
 const Window = ({ currDept, searchKeywords }) => {
-	const articlesPerPage = 6;
+	const articlesPerPage = 10;
 	const [currentPage, setCurrentPage] = useState(1);
 
 	useEffect(() => {
 		setCurrentPage(1)
 		window.scrollTo({ top: 0 });
 	}, [currDept]);
-	const filteredArticles = useMemo(
-		() => handleFetch(data, currDept, searchKeywords),
-		[data, currDept, searchKeywords]
-	);
 
-	const totalPages = Math.ceil(filteredArticles.length / articlesPerPage);
-	const paginatedArticles = filteredArticles.slice(
-		(currentPage - 1) * articlesPerPage,
-		currentPage * articlesPerPage
-	);
 
 	const monthsAll = [
 		'January', 'February', 'March', 'April', 'May', 'June',
 		'July', 'August', 'September', 'October', 'November', 'December',
 	];
 
-	const defaultMonth = new Date().getMonth();
-	const defaultYear = new Date().getFullYear();
-	const defaultDate = new Date().getDate()
+	// const defaultMonth = new Date().getMonth();
+	// const defaultYear = new Date().getFullYear();
+	// const defaultDate = new Date().getDate()
 	const [showPicker, setShowPicker] = useState(false);
-	const [selectedDate, setSelectedDate] = useState({ date: defaultDate, month: monthsAll[defaultMonth], year: defaultYear });
+	const [selectedDate, setSelectedDate] = useState({ date: null, month: null, year: null });
 
-	const showDept = useMemo(() => currDept === 'All News'|| currDept ==='', [currDept]);
-	const searchDesc = currDept===''?true : false ;
+	const filteredArticles = useMemo(
+		() => handleFetch(data, currDept, searchKeywords, selectedDate),
+		[data, currDept, searchKeywords, selectedDate]
+	);
+	
+	const totalPages = Math.ceil(filteredArticles.length / articlesPerPage);
+	const paginatedArticles = filteredArticles.slice(
+		(currentPage - 1) * articlesPerPage,
+		currentPage * articlesPerPage
+	);
+
+	const showDept = useMemo(() => currDept === 'All News' || currDept === '', [currDept]);
+	const searchDesc = currDept === '' ? true : false;
 
 	return (
-		<section className="w-full md:w-[70vw] min-h-[100vh] bg-[var(--bg-dark)] left-0">
+		<section className="w-full md:w-[60vw] min-h-[100vh] bg-white left-0">
 
-			{currDept && <div className="ml-10 mt-8  flex flex-row relative w-[90vw] md:w-[65vw] items-center justify-between">
-				<h1 className="text-white text-lg md:text-2xl font-bold">{currDept}</h1>
+			{currDept && <div className="ml-10 mt-8  flex flex-row relative w-[90vw] md:w-[57vw] items-center justify-between">
+				<h1 className="text-[var(--text-primary)] text-lg md:text-2xl font-bold">{currDept}</h1>
 				<div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
 					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>
 					{showPicker &&
@@ -64,12 +66,12 @@ const Window = ({ currDept, searchKeywords }) => {
 			<div className="mt-4 ml-4 flex flex-col gap-1 sm:gap-4">
 				{paginatedArticles.map((item, idx) => (
 					<Card variant="primary" key={item.title + idx} href={item.link}>
-						<img src={item.img} alt={item.title} className="max-w-[40vw] max-h-[30vh] sm:max-w-[25vw] sm:max-h-[25vh]" />
-						<a className="flex flex-col relative h-[20vh] w-[40vw] justify-center">	
-							<p className=" m-3 text-[12px] lg:text-lg" >{item.title}</p>
+						<img src={item.img} alt={item.title} className="w-[18vw] max-h-[30vh] sm:max-w-[22vw] sm:max-h-[25vh] " />
+						<span className="flex flex-col relative h-[19vh] w-full md:h-[20vh]  justify-center">
+							<p className=" ml-3  text-[11px] lg:text-sm" >{item.title}</p>
 							{showDept && <span className="absolute right-2 bottom-0 text-[10px] md:text-[14px]">{item.dept}</span>}
 							<span className="absolute top-0  md:left-2 md:bottom-0 text-[10px] md:text-[14px]">{"Published : " + item.published}</span>
-						</a>
+						</span>
 					</Card>
 				))}
 			</div>

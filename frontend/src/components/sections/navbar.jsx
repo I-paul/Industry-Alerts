@@ -28,7 +28,7 @@ const Navbar = ({ setDept, dept, changeArticles }) => {
 		}
 	};
 	return (
-		<motion.nav className="sticky flex flex-row top-0 p-7 bg-[var(--brand-primary)] items-center justify-between z-99 border-b-4 border-[var(--brand-secondary)]"
+		<motion.nav className="sticky flex flex-row top-0 p-5 bg-[var(--brand-primary)] items-center justify-between z-99 border-b-4 border-[var(--brand-secondary)]"
 			initial={{ y: -100, opacity: 0 }}
 			animate={{ y: 0, opacity: 1 }}
 			transition={{ duration: 0.6 }}

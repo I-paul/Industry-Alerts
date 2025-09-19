@@ -40,7 +40,7 @@ export default function handleFetch(data, selectedDept, keywords, selectedDate) 
 				return new Date(yb, mb - 1, db) - new Date(ya, ma - 1, da);
 			});
 	}
-	else if (selectedDept === 'All News') {
+	else if (selectedDept === 'All News' || selectedDept === 'Top News') {
 		Object.entries(data.dept).forEach(([deptName, yearObj]) => {
 			Object.values(yearObj["2025"]).forEach((monthObj) => {
 				if (monthObj.articles) {

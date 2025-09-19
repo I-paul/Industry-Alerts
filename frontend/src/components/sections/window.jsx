@@ -42,7 +42,7 @@ const Window = ({ currDept, searchKeywords }) => {
 	return (
 		<section className="w-full md:w-[60vw] min-h-[100vh] bg-white left-0">
 
-			{currDept && <div className="ml-10 mt-8  flex flex-row relative w-[90vw] md:w-[57vw] items-center justify-between">
+			{currDept && <div className="mx-10 mt-8 flex flex-row relative w-[88vw] md:w-[55vw] items-center justify-between">
 				<h1 className="text-[var(--text-primary)] text-lg md:text-2xl font-bold">{currDept}</h1>
 				<div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
 					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date == null?"Select Date":selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>
@@ -62,9 +62,9 @@ const Window = ({ currDept, searchKeywords }) => {
 			<div className="mt-4 ml-4 flex flex-col gap-1 sm:gap-4">
 				{paginatedArticles.map((item, idx) => (
 					<Card variant="primary" key={item.title + idx} href={item.link}>
-						<img src={item.img} alt={item.title} className="w-[18vw] max-h-[30vh] sm:max-w-[22vw] sm:max-h-[25vh] " />
+						<img src={item.img} alt={item.title} className="w-[40vw] max-h-[40vh] sm:max-w-[22vw] sm:max-h-[25vh] " />
 						<span className="flex flex-col relative h-[19vh] w-full md:h-[20vh]  justify-center">
-							<p className=" ml-3  text-[11px] lg:text-[20px]" >{item.title}</p>
+							<p className=" ml-3  text-[11px] lg:text-[15px] xl:text-[20px]" >{item.title}</p>
 							{showDept && <span className="absolute right-2 bottom-0 text-[10px] md:text-[14px]">{item.dept}</span>}
 							<span className="absolute top-0  md:left-2 md:bottom-0 text-[10px] md:text-[14px]">{"Published : " + item.published}</span>
 						</span>

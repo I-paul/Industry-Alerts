@@ -9,7 +9,7 @@ const Navbar = ({ setDept, dept, changeArticles }) => {
 	const [hamburger, setHamburger] = useState(false);
 	const [searchText, setSearchText] = useState('')
 
-	const Options = ["All News", "Incentives & Regulations", "Electric Vehicles", "Connected Vehicles", "Autonomous Vehicles",
+	const Options = ["Top News","All News", "Incentives & Regulations", "Electric Vehicles", "Connected Vehicles", "Autonomous Vehicles",
 		"Shared Mobility", "Aftermarket & Digital Retail", "Leasing & Rental", "Two Wheelers", "Trucks",
 		"Buses & Coaches", "Off-Highways"];
 

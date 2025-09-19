@@ -68,7 +68,7 @@
   --success-border: rgba(39, 131, 118, 0.3);
   
   --warning: #f26722;
-  --warning-bg: rgba(242, 103, 34, 0.1);
+  --warning-bg: #f267221a;
   --warning-border: rgba(242, 103, 34, 0.3);
   
   --info: #00b0f0;
@@ -138,6 +138,6 @@ html{
   
 }
 body{
-  background: #172d55;
+  background: white;
   font-family: var(--font-main);
 }

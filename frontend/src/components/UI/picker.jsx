@@ -1,14 +1,14 @@
 import { useState, useMemo } from "react";
 
-export default function CalendarPicker({ months, currentDate, onSelect, onClose, minYear }) {
+export default function CalendarPicker({ months, onSelect, onClose, minYear }) {
 	const now = new Date();
 	const currentYear = now.getFullYear();
 	const currentMonth = now.getMonth();
 	const currentDateNum = now.getDate();
 
-	const [year, setYear] = useState(currentDate.year);
-	const [month, setMonth] = useState(months.indexOf(currentDate.month));
-	const [selectedDay, setSelectedDay] = useState(currentDate.date);
+	const [year, setYear] = useState(currentYear);
+	const [month, setMonth] = useState(currentMonth);
+	const [selectedDay, setSelectedDay] = useState(currentDateNum);
 
 	const years = useMemo(() => {
 		const y = [];
@@ -45,7 +45,10 @@ export default function CalendarPicker({ months, currentDate, onSelect, onClose,
 		});
 		onClose();
 	};
-
+	const handleClear = () => {
+		onSelect({ date: null, month: null, year: null });
+		onClose();
+	};
 	return (
 		<div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
 			<div className="bg-white p-6 rounded-lg w-80">
@@ -112,7 +115,13 @@ export default function CalendarPicker({ months, currentDate, onSelect, onClose,
 				</div>
 
 				{/* Action Buttons */}
-				<div className="flex justify-end gap-2">
+				<div className="flex justify-around items-center gap-2">
+					<button
+						onClick={handleClear}
+						className="text-sm text-white px-3 py-1 bg-[var(--footer-bg)] hover:bg-[var(--error)] rounded"
+					>
+						Clear
+					</button>
 					<button onClick={onClose} className="text-sm text-gray-600 px-3 py-1 hover:underline">Cancel</button>
 					<button
 						onClick={confirmSelection}

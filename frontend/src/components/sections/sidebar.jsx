@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Button from "../UI/button";
 
 const Sidebar = ({ setDept, dept }) => {
-    const Options = ["All News", "Incentives & Regulations", "Electric Vehicles", "Connected Vehicles", "Autonomous Vehicles",
+    const Options = ["Top News","All News", "Incentives & Regulations", "Electric Vehicles", "Connected Vehicles", "Autonomous Vehicles",
         "Shared Mobility", "Aftermarket & Digital Retail", "Leasing & Rental", "Two Wheelers", "Trucks",
         "Buses & Coaches", "Off-Highways"];
     return (

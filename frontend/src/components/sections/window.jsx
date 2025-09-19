@@ -22,9 +22,6 @@ const Window = ({ currDept, searchKeywords }) => {
 		'July', 'August', 'September', 'October', 'November', 'December',
 	];
 
-	// const defaultMonth = new Date().getMonth();
-	// const defaultYear = new Date().getFullYear();
-	// const defaultDate = new Date().getDate()
 	const [showPicker, setShowPicker] = useState(false);
 	const [selectedDate, setSelectedDate] = useState({ date: null, month: null, year: null });
 
@@ -48,11 +45,10 @@ const Window = ({ currDept, searchKeywords }) => {
 			{currDept && <div className="ml-10 mt-8  flex flex-row relative w-[90vw] md:w-[57vw] items-center justify-between">
 				<h1 className="text-[var(--text-primary)] text-lg md:text-2xl font-bold">{currDept}</h1>
 				<div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
-					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>
+					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date == null?"Select Date":selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>
 					{showPicker &&
 						(<CalendarPicker
 							months={monthsAll}
-							currentDate={selectedDate}
 							onSelect={(val) => setSelectedDate(val)}
 							onClose={() => setShowPicker(false)}
 							minYear={2024}
@@ -68,7 +64,7 @@ const Window = ({ currDept, searchKeywords }) => {
 					<Card variant="primary" key={item.title + idx} href={item.link}>
 						<img src={item.img} alt={item.title} className="w-[18vw] max-h-[30vh] sm:max-w-[22vw] sm:max-h-[25vh] " />
 						<span className="flex flex-col relative h-[19vh] w-full md:h-[20vh]  justify-center">
-							<p className=" ml-3  text-[11px] lg:text-sm" >{item.title}</p>
+							<p className=" ml-3  text-[11px] lg:text-[20px]" >{item.title}</p>
 							{showDept && <span className="absolute right-2 bottom-0 text-[10px] md:text-[14px]">{item.dept}</span>}
 							<span className="absolute top-0  md:left-2 md:bottom-0 text-[10px] md:text-[14px]">{"Published : " + item.published}</span>
 						</span>

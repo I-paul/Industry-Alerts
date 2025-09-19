@@ -7,7 +7,7 @@ const variantClasses = {
 function Card({ children, variant = 'primary', ...props }) {
 	return (
 		<motion.a
-			className={`px-1 py-2 md:px-2 md:py-4 my-2 mx-3  flex items-center rounded-2xl transition-colors duration-200 focus:outline-none ${variantClasses[variant]}`}
+			className={`px-1 py-2 md:px-2 md:py-4 my-2 mx-6 lg:mx-10 flex items-center rounded-2xl transition-colors duration-200 focus:outline-none ${variantClasses[variant]}`}
 			{...props}
 			initial={{ y: 25, opacity: 0 }}
 			whileHover={{ y: -5 }}

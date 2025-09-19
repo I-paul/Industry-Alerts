@@ -40,9 +40,9 @@ const Window = ({ currDept, searchKeywords }) => {
 	const searchDesc = currDept === '' ? true : false;
 
 	return (
-		<section className="w-full md:w-[60vw] min-h-[100vh] bg-white left-0">
+		<section className="w-full md:w-[75vw] lg:w-[80vw] min-h-[100vh] bg-white left-0">
 
-			{currDept && <div className="mx-10 mt-8 flex flex-row relative w-[88vw] md:w-[55vw] items-center justify-between">
+			{currDept && <div className="mx-10 mt-8 flex flex-row relative w-[88vw] md:w-[70vw] items-center justify-between">
 				<h1 className="text-[var(--text-primary)] text-lg md:text-2xl font-bold">{currDept}</h1>
 				<div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
 					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date == null?"Select Date":selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>

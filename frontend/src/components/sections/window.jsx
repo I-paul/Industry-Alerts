@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
-import CalendarPicker from "../UI/picker";
+// import CalendarPicker from "../UI/DatePicker";
+import MonthPicker from "../UI/MonthPicker";
 import Card from "../UI/card";
-import Link from "../UI/link";
 import Button from "../UI/button";
 import data from "../../data/sample.json"
 import handleFetch from "../../utils/fetch";
@@ -47,7 +47,7 @@ const Window = ({ currDept, searchKeywords }) => {
 				<div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
 					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date == null?"Select Date":selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>
 					{showPicker &&
-						(<CalendarPicker
+						(<MonthPicker
 							months={monthsAll}
 							onSelect={(val) => setSelectedDate(val)}
 							onClose={() => setShowPicker(false)}

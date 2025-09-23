@@ -4,7 +4,7 @@ const variantClasses = {
 	secondary: ' bg-[var(--btn-secondary-bg)] text-white hover:bg-[var(--btn-accent-hover)]',
 	disabled: 'cursor-not-allowed bg-gray-500 ',
 	hamburger: ' bg-[var(--btn-primary-bg)] hover:bg-[var(--brand-accent)] text-white text-bold md:hidden',
-	outline: ' font-bold border  text-blue-500 bg-[var(--bg-primary)] hover:bg-[var(--bg-secondary)]',
+	outline: ' font-bold border border-blue-600 text-black bg-[var(--bg-primary)] hover:bg-[var(--bg-secondary)]',
 };
 
 function Button({ children, variant = 'primary', ...props }) {

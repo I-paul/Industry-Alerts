@@ -3,7 +3,7 @@ export default function handleFetch(data, selectedDept, keywords, selectedDate) 
 	const monthToNumber = (month) => {
 		if (month == null) return null;
 		if (typeof month === 'number') return month;
-		const months = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+		const months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
 		const idx = months.indexOf(String(month).toLowerCase());
 		return idx >= 0 ? idx + 1 : null;
 	};
@@ -11,10 +11,15 @@ export default function handleFetch(data, selectedDept, keywords, selectedDate) 
 	const matchDate = (published, sel) => {
 		if (!sel) return true;
 		const [d, m, y] = published.split('-').map(Number);
-		const selDay = Number(sel.date) || null;
 		const selMonth = monthToNumber(sel.month);
 		const selYear = Number(sel.year) || null;
-		return (!selDay || d === selDay) && (!selMonth || m === selMonth) && (!selYear || y === selYear);
+		if (sel.date === "all") {
+			return (!selMonth || m === selMonth) && (!selYear || y === selYear);
+		}
+		else {
+			const selDay = Number(sel.date) || null;
+			return (!selDay || d === selDay) && (!selMonth || m === selMonth) && (!selYear || y === selYear);
+		}
 	};
 	const allArticles = [];
 

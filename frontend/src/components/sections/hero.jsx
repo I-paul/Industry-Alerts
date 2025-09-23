@@ -13,7 +13,7 @@ const Hero = () => {
       />
 
       <div className="relative z-20 flex items-center justify-center h-full">
-        <h1 className="text-white text-xl md:text-3xl font-semibold">
+        <h1 className="text-white text-xl md:text-[3rem] font-semibold ">
           Welcome!
         </h1>
       </div>

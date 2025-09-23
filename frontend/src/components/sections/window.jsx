@@ -45,7 +45,7 @@ const Window = ({ currDept, searchKeywords }) => {
 			{currDept && <div className="mx-10 mt-8 flex flex-row relative w-[88vw] md:w-[70vw] items-center justify-between">
 				<h1 className="text-[var(--text-primary)] text-lg md:text-2xl font-bold">{currDept}</h1>
 				<div className="flex flex-col gap-4 max-w-50 max-h-30 overflow-hidden p-2.5">
-					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date == null?"Select Date":selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>
+					<Button variant="secondary" onClick={() => setShowPicker(true)}>{selectedDate.date == null?"Select Month/Year":selectedDate.date + " " + selectedDate.month + " " + selectedDate.year}</Button>
 					{showPicker &&
 						(<MonthPicker
 							months={monthsAll}

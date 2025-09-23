@@ -16,7 +16,7 @@ export default function MonthPicker({ months, onSelect, onClose, minYear }) {
 
     const confirmSelection = () => {
         onSelect({
-            date: "all",
+            date: "all",    
             month: months[month],
             year,
         });

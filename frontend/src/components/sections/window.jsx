@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 // import CalendarPicker from "../UI/DatePicker";
-import MonthPicker from "../UI/MonthPicker";
+import MonthPicker from "../UI/monthYearPicker";
 import Card from "../UI/card";
 import Button from "../UI/button";
 import data from "../../data/sample.json"
